@@ -9,11 +9,8 @@
         <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700Lato:300,400,700" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-        <title>KOM GODT I GANG MED BRACKETS</title>
-        <meta name="description" content="En interaktiv guide til at komme godt i gang med Brackets.">
-        <link rel="stylesheet" href="assets/css/main.css">
     </head>
-    
+
     <body>
         <nav class="navwrapper">
             <div class="navheader">
@@ -66,9 +63,9 @@
                 </div>
             </div>
         </nav>
-        
+
         <h1>Velkommen til Billum Friskole</h1>
-        
+
         <div class="slideshow">
             <div class="slideshow-slide fade">
                 <img src="assets/img/slide1.png" style="width:100%">
@@ -79,18 +76,18 @@
             <div class="slideshow-slide fade">
                 <img src="assets/img/slide3.png" style="width:100%">
             </div>
-            
+
             <a class="slideshow-prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="slideshow-next" onclick="plusSlides(1)">&#10095;</a>
             <br>
-            
+
             <div style="text-align:center">
                 <span class="slideshow-count" onclick="currentSlide(1)"></span>
                 <span class="slideshow-count" onclick="currentSlide(2)"></span>
                 <span class="slideshow-count" onclick="currentSlide(3)"></span>
             </div>
         </div>
-        
+
         <script>
             var slideIndex = 1;
             showSlides(slideIndex);
@@ -107,15 +104,15 @@
             var i;
             var slides = document.getElementsByClassName("slideshow-slide");
             var dots = document.getElementsByClassName("slideshow-count");
-            if (n > slides.length) {slideIndex = 1}    
+            if (n > slides.length) {slideIndex = 1}
             if (n < 1) {slideIndex = slides.length}
             for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
+            slides[i].style.display = "none";
             }
             for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" slideshow-count-active", "");
             }
-            slides[slideIndex-1].style.display = "block";  
+            slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " slideshow-count-active";
             }
         </script>
