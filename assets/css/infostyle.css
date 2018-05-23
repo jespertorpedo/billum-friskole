@@ -1,0 +1,156 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 2.6em;
+    color: #666;
+}
+
+body{
+    margin: 0;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #85C74D;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*-----------------------*/
+/*----------Nav----------*/
+/*-----------------------*/
+
+.navwrapper{
+    display: flex;
+    width: 100%;
+    height: 128px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: #85C74D;
+}
+.navwrapper a{
+
+}
+
+#navlogo{
+    width: 128px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+}
+/*NYT*/
+.navheader{
+    position: relative;
+    display: inline-block;
+}
+
+.navheader-content{
+    min-width: 200px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navheader-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navheader-content a:hover{
+    background-color: #85C74D;
+}
+
+.navheader-btn{
+    width: 200px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navheader:hover .navheader-content{
+    display: block;
+}
+
+.navheader:hover .navheader-btn{
+    background-color: #85C74D;
+}
+
+/*-----------------------*/
+/*----------grid---------*/
+/*-----------------------*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.grid > div{
+  background-color: white;
+  padding: 1em;
+}
+
+.grid > div:nth-child(odd){
+  background-color: #85C74D;
+}
+
+/*-----------------------*/
+/*---------Footer--------*/
+/*-----------------------*/
+
+footer{
+    height: auto;
+    width:100%;
+    border-top: 7px;
+    border-top-style: solid;
+    border-top-color: #85C74D;
+ }
+
+.footerleft{
+    float:left;
+    width:33%;
+    left: 53px;
+    border:1px solid #CCC;
+    padding:10px;
+}
+
+.footerright{
+    float: right;
+    width:33%;
+    border:1px solid #CCC;
+    padding:10px;
+}
