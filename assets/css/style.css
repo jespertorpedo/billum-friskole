@@ -167,8 +167,42 @@ h1{
   to {opacity: 1}
 }
 
-.contentwrapper {
-      border-bottom-color: #85C74D;
-      padding-left: 0px;
+/*-----------------------*/
+/*---------Index---------*/
+/*-----------------------*/
 
+
+/*-----------------------*/
+/*---------Footer--------*/
+/*-----------------------*/
+
+footer{
+ height: auto;
+ padding:1px 15px;
+ width:520px;
+ }
+#footer_links{
+ float:left;
+ width:150px;  
+ border:1px solid #CCC;
+ padding:10px;
+}
+#values{
+ width:150px;        
+ float:left;
+ text-align:justify;
+ border:1px solid #CCC;
+ padding:10px;
+ }
+#contacts{
+float: left;
+width:150px; 
+border:1px solid #CCC;
+padding:10px;
+}
+#copyright{
+float:left;
+text-align:center;
+border:1px solid #333;
+width:514px;
 }
