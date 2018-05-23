@@ -11,6 +11,26 @@ html, body{
 body{
     margin: 0;
     overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #85C74D; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: green;
 }
 
 a {
@@ -113,17 +133,17 @@ h1{
 }
 
 .slideshow-prev, .slideshow-next{
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
 
 .slideshow-next{
@@ -132,44 +152,40 @@ h1{
 }
 
 .slideshow-prev:hover, .slideshow-next:hover{
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .slideshow-count{
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .slideshow-count-active, .slideshow-count:hover{
-  background-color: #717171;
+    background-color: #717171;
 }
 
 .fade{
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
-
-/*-----------------------*/
-/*---------Index---------*/
-/*-----------------------*/
 
 
 /*-----------------------*/
@@ -177,32 +193,24 @@ h1{
 /*-----------------------*/
 
 footer{
- height: auto;
- padding:1px 15px;
- width:520px;
+    height: auto;
+    width:100%;
+    border-top: 7px;
+    border-top-style: solid;
+    border-top-color: #85C74D;
  }
-#footer_links{
- float:left;
- width:150px;  
- border:1px solid #CCC;
- padding:10px;
+
+.footerleft{
+    float:left;
+    width:33%;
+    left: 53px;
+    border:1px solid #CCC;
+    padding:10px;
 }
-#values{
- width:150px;        
- float:left;
- text-align:justify;
- border:1px solid #CCC;
- padding:10px;
- }
-#contacts{
-float: left;
-width:150px; 
-border:1px solid #CCC;
-padding:10px;
-}
-#copyright{
-float:left;
-text-align:center;
-border:1px solid #333;
-width:514px;
+
+.footerright{
+    float: right;
+    width:33%; 
+    border:1px solid #CCC;
+    padding:10px;
 }
