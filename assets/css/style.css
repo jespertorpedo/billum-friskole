@@ -25,7 +25,7 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #85C74D; 
+    background: #85C74D;
 }
 
 /* Handle on hover */
@@ -85,6 +85,8 @@ a {
 
 .navheader-content a:hover{
     background-color: #85C74D;
+    color: #FFF;
+
 }
 
 .navheader-btn{
@@ -100,6 +102,18 @@ a {
     background: none;
     border: none;
     cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.navheader-btn:hover {
+    color: #FFF;
+
+}
+
+.navheader-btn:focus {
+    outline: 0;
+
 }
 
 .navheader:hover .navheader-content{
@@ -108,6 +122,8 @@ a {
 
 .navheader:hover .navheader-btn{
     background-color: #85C74D;
+    color: #FFF;
+    
 }
 
 /*-----------------------*/
@@ -210,7 +226,7 @@ footer{
 
 .footerright{
     float: right;
-    width:33%; 
+    width:33%;
     border:1px solid #CCC;
     padding:10px;
 }
