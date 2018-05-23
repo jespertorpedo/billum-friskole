@@ -120,12 +120,15 @@ a {
 }
 
 .grid > div{
-  background-color: white;
+  background-color: #white;
   padding: 1em;
+  border-radius: 25px;
+  border: 7px solid #85c74d;
 }
 
 .grid > div:nth-child(odd){
-  background-color: #85C74D;
+  background-color: white;
+  border: none;
 }
 
 /*-----------------------*/
