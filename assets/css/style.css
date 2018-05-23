@@ -5,7 +5,7 @@ html, body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 2.6em;
-    color: #666;
+    color: #000;
 }
 
 body{
@@ -35,6 +35,10 @@ body{
 
 a {
     text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
 }
 
 /*-----------------------*/
@@ -123,7 +127,7 @@ a {
 .navheader:hover .navheader-btn{
     background-color: #85C74D;
     color: #FFF;
-    
+
 }
 
 /*-----------------------*/
