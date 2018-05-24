@@ -208,26 +208,24 @@ h1{
 }
 
 indexwrapper {
-    max-width: 1200px;
+    width: 1200px;
     position: relative;
     margin: auto;
-    /*align-items: center;
-    justify-content: center;
-    text-align: center;*/
+    text-align: center;
     border: 7px solid #85C74D;
 }
 
 
 indexcontent-left {
-    
+    text-align: center;
 }
 
 indexcontent-right {
-    
+    text-align: center;
 }
 
 indexcontent-pic {
-    
+    text-align: center;
 }
 
 /*-----------------------*/
