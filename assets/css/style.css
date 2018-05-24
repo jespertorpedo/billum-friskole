@@ -207,6 +207,7 @@ h1{
     to {opacity: 1}
 }
 
+<<<<<<< HEAD
 .indexwrapper {
     max-width: 1200px;
     position: relative;
@@ -229,6 +230,27 @@ h1{
 
 .indexcontent-pic {
     
+=======
+indexwrapper {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    border: 7px solid #85C74D;
+}
+
+
+indexcontent-left {
+    text-align: center;
+}
+
+indexcontent-right {
+    text-align: center;
+}
+
+indexcontent-pic {
+    text-align: center;
+>>>>>>> 43f469711fddeb6d14b398d113249b3f8df8f848
 }
 
 /*-----------------------*/

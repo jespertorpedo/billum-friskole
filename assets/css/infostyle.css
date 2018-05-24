@@ -11,6 +11,7 @@ html, body{
 body{
     margin: 0;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -85,6 +86,8 @@ a {
 
 .navheader-content a:hover{
     background-color: #85C74D;
+    color: #FFF;
+
 }
 
 .navheader-btn{
@@ -100,6 +103,18 @@ a {
     background: none;
     border: none;
     cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.navheader-btn:hover {
+    color: #FFF;
+
+}
+
+.navheader-btn:focus {
+    outline: 0;
+
 }
 
 .navheader:hover .navheader-content{
@@ -108,27 +123,34 @@ a {
 
 .navheader:hover .navheader-btn{
     background-color: #85C74D;
+    color: #FFF;
+
 }
 
 /*-----------------------*/
-/*----------grid---------*/
+/*------content----------*/
 /*-----------------------*/
 
-.grid {
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
+.banner{
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
 }
 
-.grid > div{
-  background-color: #white;
-  padding: 1em;
-  border-radius: 25px;
-  border: 7px solid #85c74d;
+#banner-image{
+    width: 1200px;
+    border-radius: 80px;
 }
 
-.grid > div:nth-child(odd){
-  background-color: white;
-  border: none;
+.body-text{
+    max-width: 1160px;
+    position: relative;
+    margin: auto;
+    border: 7px solid #85C74D;
+    padding: 20px;
+    border-radius: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*-----------------------*/
