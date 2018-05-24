@@ -207,6 +207,28 @@ h1{
     to {opacity: 1}
 }
 
+indexwrapper {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    /*align-items: center;
+    justify-content: center;
+    text-align: center;*/
+    border: 7px solid #85C74D;
+}
+
+
+indexcontent-left {
+    
+}
+
+indexcontent-right {
+    
+}
+
+indexcontent-pic {
+    
+}
 
 /*-----------------------*/
 /*---------Footer--------*/
