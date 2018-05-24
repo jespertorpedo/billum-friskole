@@ -163,12 +163,12 @@ h1{
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 50% 50% 0;
 }
 
 .slideshow-next{
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 50% 0 0 50%;
 }
 
 .slideshow-prev:hover, .slideshow-next:hover{
@@ -179,7 +179,7 @@ h1{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 0 5px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -207,26 +207,27 @@ h1{
     to {opacity: 1}
 }
 
-indexwrapper {
+.indexwrapper {
     max-width: 1200px;
     position: relative;
     margin: auto;
-    /*align-items: center;
-    justify-content: center;
-    text-align: center;*/
+}
+
+
+.indexcontent-left {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 7px solid #85C74D;
+    height: 500px;
+}
+
+.indexcontent-right {
+    margin-top: 40px;
+    margin-bottom: 40px;
     border: 7px solid #85C74D;
 }
 
-
-indexcontent-left {
-    
-}
-
-indexcontent-right {
-    
-}
-
-indexcontent-pic {
+.indexcontent-pic {
     
 }
 
