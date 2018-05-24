@@ -2,7 +2,7 @@ html, body{
     height: 100%;
     margin: 0;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: "PT Sans", sans-serif;
     font-weight: 400;
     line-height: 2.6em;
     color: #000;
@@ -207,50 +207,45 @@ h1{
     to {opacity: 1}
 }
 
-<<<<<<< HEAD
+/*-----------------------*/
+/*------Index Pt. 2------*/
+/*-----------------------*/
+
 .indexwrapper {
     max-width: 1200px;
     position: relative;
     margin: auto;
 }
 
-
 .indexcontent-left {
     margin-top: 40px;
     margin-bottom: 40px;
     border: 7px solid #85C74D;
-    height: 500px;
+    height: 250px;
+    border-radius: 500px;
+    display: flex;
 }
 
 .indexcontent-right {
     margin-top: 40px;
     margin-bottom: 40px;
     border: 7px solid #85C74D;
+    height: 250px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.indexcontent-pic {
-    
-=======
-indexwrapper {
-    width: 1200px;
-    position: relative;
-    margin: auto;
-    text-align: center;
-    border: 7px solid #85C74D;
+.indexcontent-title {
+    line-height: 50px;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
 }
 
-
-indexcontent-left {
-    text-align: center;
-}
-
-indexcontent-right {
-    text-align: center;
-}
-
-indexcontent-pic {
-    text-align: center;
->>>>>>> 43f469711fddeb6d14b398d113249b3f8df8f848
+.indexcontent-text {
+    line-height: 50px;
+    font-size: 40px;
 }
 
 /*-----------------------*/
